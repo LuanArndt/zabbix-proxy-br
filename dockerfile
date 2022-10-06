@@ -74,5 +74,5 @@ SHELL ["/bin/bash", "-c"]
 RUN apt update && \
     apt install apt-utils nano gpg curl tzdata -yq && \
     ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime && \
-    dpkg-reconfigure -f noninteractive tzdata && \
+    dpkg-reconfigure -f noninteractive tzdata
 
